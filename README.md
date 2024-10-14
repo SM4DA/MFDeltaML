@@ -1,9 +1,9 @@
 # MFDeltaML and Data Efficiency Benchmarks of Multifidelity Methods for Machine Learning 
-Scripts for MFDeltaML and data efficiency benchmarks of DeltaML, MFML, o-MFML, MFDeltaML, o-MFDeltaML on the CheMFi dataset.
+Scripts for MFDeltaML and data efficiency benchmarks of DeltaML, MFML, o-MFML, MFDeltaML, o-MFDeltaML on the QeMFi dataset.
 
 
-The scripts provided in this code repository can be used to reprodce the results of the manuscript titled 'xxxx' available as a preprint at xxx. The python library requirements can be found in `requirements.txt` in this code repository.
-The data used in this work is the CheMFi dataset which can be accessed at the following URL: https://zenodo.org/records/12734761
+The scripts provided in this code repository can be used to reprodce the results of the manuscript titled 'Benchmarking Data Efficiency in Delta-ML and Multifidelity Models for Quantum Chemistry' available as a preprint at [TBA]. The python library requirements can be found in `requirements.txt` in this code repository.
+The data used in this work is the QeMFi dataset which can be accessed at the following URL: [https://zenodo.org/records/12734761](https://doi.org/10.5281/zenodo.13925688)
 
 * `Model_MFML.py` is the main python module required to run the MFML and o-MFML models.
 * `SF_DeltaML.py` generates the Delta ML learning curves for different QC-baseline.
