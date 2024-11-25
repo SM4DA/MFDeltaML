@@ -85,12 +85,12 @@ def main(sig, reg):
     baseline_MAE = baseline_MAE/navg
     
     #return full_maes, baseline_MAE
-    np.save(f'outs/predictedbase_delML_STO3G_mae.npy',full_maes)
-    np.save(f'outs/predictedbase_delML_baseline_mae.npy',baseline_MAE)
+    np.save(f'outs/DPe_predictedbase_delML_STO3G_mae.npy',full_maes)
+    np.save(f'outs/DPe_predictedbase_delML_baseline_mae.npy',baseline_MAE)
 
 if __name__=='__main__':
     nmax = 11
     navg=10
-    main(sig=150.0,reg=1e-10)
+    main(sig=3000.0,reg=1e-10)
         
         
