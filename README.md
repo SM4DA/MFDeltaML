@@ -1,5 +1,9 @@
 # MFDeltaML and Data Efficiency Benchmarks of Multifidelity Methods for Machine Learning 
-Scripts for MFDeltaML and data efficiency benchmarks of DeltaML, MFML, o-MFML, MFDeltaML, o-MFDeltaML on the QeMFi dataset.
+Scripts for MFDeltaML and data efficiency benchmarks of DeltaML, MFML, o-MFML, MFDeltaML, o-MFDeltaML on the QeMFi dataset. This is performed for the following QC properties:
+* ground state energies
+* first vertical excitation energies
+* second vertical excitation energies
+* magnitude of electric comtribution to molecular dipole moment
 
 
 The scripts provided in this code repository can be used to reprodce the results of the manuscript titled 'Benchmarking Data Efficiency in Delta-ML and Multifidelity Models for Quantum Chemistry' available as a preprint at https://arxiv.org/abs/2410.11391. The python library requirements can be found in `requirements.txt` in this code repository.
