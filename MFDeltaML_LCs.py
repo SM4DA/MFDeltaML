@@ -128,10 +128,10 @@ def main(sig,reg=1e-10):
                                                                y_val, reg=reg, sig=sig, 
                                                                ker='matern', navg=10)
     
-    np.save(f'outs/Delta_defaultMAEs_STO3G.npy',def_maes,allow_pickle=True)
-    np.save(f'outs/Delta_OLSMAEs_STO3G.npy',all_maes,allow_pickle=True)
+    np.save(f'outs/DPe_Delta_defaultMAEs_STO3G.npy',def_maes,allow_pickle=True)
+    np.save(f'outs/DPe_Delta_OLSMAEs_STO3G.npy',all_maes,allow_pickle=True)
     
 
 if __name__=='__main__':
-    main(sig=150.0,reg=1e-10)
+    main(sig=3000.0,reg=1e-10)
     

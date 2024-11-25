@@ -78,8 +78,8 @@ def main(sig,reg):
     
         maes = SF_learning_curve(X_train=X_train, X_test=X_test, y_train=del_y_train, y_test=del_y_test, 
                                  sigma=sig, reg=reg, navg=10, ker='matern')
-        np.save(f'outs/delML_{fids[i]}_mae.npy',maes)
+        np.save(f'outs/DPe_delML_{fids[i]}_mae.npy',maes)
     
     
 if __name__=='__main__':
-    main(sig=150.0,reg=1e-10)
+    main(sig=3000.0,reg=1e-10)

@@ -122,9 +122,9 @@ def main(sig,reg=1e-10):
                                                                y_val, reg=reg, sig=sig, 
                                                                ker='matern', navg=10)
     
-    np.save(f'outs/defaultMAEs.npy',def_maes, allow_pickle=True)
-    np.save(f'outs/OLSMAEs.npy',all_maes, allow_pickle=True)
+    np.save(f'outs/DPe_defaultMAEs.npy',def_maes, allow_pickle=True)
+    np.save(f'outs/DPe_OLSMAEs.npy',all_maes, allow_pickle=True)
 
 if __name__=='__main__':
-    main(sig=150.0,reg=1e-10)
+    main(sig=3000.0,reg=1e-10)
     
